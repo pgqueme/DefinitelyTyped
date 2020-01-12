@@ -8,7 +8,7 @@
 
 import convert = require('color-convert');
 
-type ColorParam = Color | string | ArrayLike<number> | number | { [key: string]: any };
+type ColorParam = string | ArrayLike<number> | number | { [key: string]: any };
 
 interface Color<T extends ColorParam = ColorParam> {
     toString(): string;
